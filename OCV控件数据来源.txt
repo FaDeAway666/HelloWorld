@@ -1,0 +1,6 @@
+tbtray TrayOut:OCV工位和出盘位扫码获得
+textbox5（测试类型）：从数据库获取
+tb1-tb24：电池条码，来自BIS，单机程序调用webservice方法
+tbPlace，tbbattay：当前电池条码和所在位置，为当前所在通道号，由上位机向PLC请求获得
+tbv，tbr，tbt：电压、电阻、温度：通过串口从PLC获得
+tbruId,tbchuId:从config文件中直接读取，不会更改
